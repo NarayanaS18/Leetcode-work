@@ -4,9 +4,7 @@ public:
         int n = s.size();
         int st = 0, end = n-1;
         while(st < end){
-            char temp = s[st];
-            s[st] = s[end];
-            s[end] = temp;
+            swap(s[st], s[end]);
             st++; end--;
         }
     }
