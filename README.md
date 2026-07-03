@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NarayanaS18/Leetcode-work/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0283-move-zeroes](https://github.com/NarayanaS18/Leetcode-work/tree/master/0283-move-zeroes) |
+| [0746-min-cost-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0746-min-cost-climbing-stairs) |
 ## String
 |  |
 | ------- |
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NarayanaS18/Leetcode-work/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0746-min-cost-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0746-min-cost-climbing-stairs) |
 ## Divide and Conquer
 |  |
 | ------- |
