@@ -1,20 +1,15 @@
 class Solution {
 public:
+    //TC = O(n) and SC = O(1) since using array of fixed size
     bool isIsomorphic(string s, string t) {
-        if(s.length() != t.length()) return false;
-        unordered_map<char, int> charIdxS;
-        unordered_map<char, int> charIdxT;
-        for(int i=0; i<s.length(); i++){
-            if(charIdxS.find(s[i]) == charIdxS.end()){
-                charIdxS[s[i]] = i;
-            }
-            if(charIdxT.find(t[i]) == charIdxT.end()){
-                charIdxT[t[i]] = i;
-            }
-            if(charIdxS[s[i]] != charIdxT[t[i]]){
-                return false;
-            }
+        int n = s.size();
+        int m1[256] = {0}, m2[256] = {0};
+        for(int i=0; i<n; i++){
+            if(m1[s[i]] != m2[t[i]]) return false;
+
+            m1[s[i]] = i+1;
+            m2[t[i]] = i+1;
         }
         return true;
-    }
+   }
 };
