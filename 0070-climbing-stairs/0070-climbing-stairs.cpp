@@ -11,7 +11,15 @@ public:
     }
 
     int climbStairs(int n) {
-        vector<int> dp(n+1, -1);
-        return f(n, dp);
+        int prev2 = 1, prev = 1;
+        int jump1 = 0, jump2 = 0;
+        for(int i=1; i<=n; i++){
+            jump1 = prev;
+            if(i > 1) jump2 = prev2;
+            int cur = jump1 + jump2;
+            prev2 = prev;
+            prev = cur;
+        }
+        return prev;
     }
 };
