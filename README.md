@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NarayanaS18/Leetcode-work/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0189-rotate-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/NarayanaS18/Leetcode-work/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/NarayanaS18/Leetcode-work/tree/master/0200-number-of-islands) |
 | [0283-move-zeroes](https://github.com/NarayanaS18/Leetcode-work/tree/master/0283-move-zeroes) |
 | [0746-min-cost-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0746-min-cost-climbing-stairs) |
 ## String
@@ -84,4 +85,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0509-fibonacci-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0509-fibonacci-number) |
+## Depth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/NarayanaS18/Leetcode-work/tree/master/0200-number-of-islands) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/NarayanaS18/Leetcode-work/tree/master/0200-number-of-islands) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/NarayanaS18/Leetcode-work/tree/master/0200-number-of-islands) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/NarayanaS18/Leetcode-work/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
