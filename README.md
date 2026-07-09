@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0746-min-cost-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0746-min-cost-climbing-stairs) |
 | [1480-running-sum-of-1d-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/1480-running-sum-of-1d-array) |
 | [1920-build-array-from-permutation](https://github.com/NarayanaS18/Leetcode-work/tree/master/1920-build-array-from-permutation) |
+| [1929-concatenation-of-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/1929-concatenation-of-array) |
 ## String
 |  |
 | ------- |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1920-build-array-from-permutation](https://github.com/NarayanaS18/Leetcode-work/tree/master/1920-build-array-from-permutation) |
+| [1929-concatenation-of-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/1929-concatenation-of-array) |
 ## Prefix Sum
 |  |
 | ------- |
