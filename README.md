@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0053-maximum-subarray) |
 | [0088-merge-sorted-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NarayanaS18/Leetcode-work/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0169-majority-element](https://github.com/NarayanaS18/Leetcode-work/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/NarayanaS18/Leetcode-work/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/NarayanaS18/Leetcode-work/tree/master/0200-number-of-islands) |
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0001-two-sum) |
+| [0169-majority-element](https://github.com/NarayanaS18/Leetcode-work/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/NarayanaS18/Leetcode-work/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/NarayanaS18/Leetcode-work/tree/master/0242-valid-anagram) |
 ## Dynamic Programming
@@ -59,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/NarayanaS18/Leetcode-work/tree/master/0169-majority-element) |
 ## Two Pointers
 |  |
 | ------- |
@@ -74,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/NarayanaS18/Leetcode-work/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/NarayanaS18/Leetcode-work/tree/master/0242-valid-anagram) |
 ## Math
 |  |
@@ -118,4 +122,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/NarayanaS18/Leetcode-work/tree/master/0238-product-of-array-except-self) |
 | [1480-running-sum-of-1d-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/1480-running-sum-of-1d-array) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/NarayanaS18/Leetcode-work/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
