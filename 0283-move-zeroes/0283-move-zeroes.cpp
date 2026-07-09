@@ -8,7 +8,6 @@ public:
                 break;
             }
         }
-
         if(j == -1) return;
         for(int i=j+1; i<n; i++){
             if(nums[i] != 0){
@@ -16,6 +15,5 @@ public:
                 j++;
             }
         }
-
     }
 };
