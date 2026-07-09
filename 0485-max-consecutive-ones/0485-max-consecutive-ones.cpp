@@ -7,7 +7,7 @@ public:
                 count++;
                 ans = max(ans, count);
             }
-            else if(nums[i] == 0){
+            else{
                 ans = max(ans, count);
                 count = 0;
             }
