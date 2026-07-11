@@ -2,7 +2,7 @@ class Solution {
 public:
 
     bool isAlphaNumeric(char ch){
-        if((ch >= '0' && ch <= '9') || (tolower(ch) >= 'a' && tolower(ch) <='z')){
+        if((tolower(ch) >= 'a' && tolower(ch) <= 'z') || (ch >= '0' && ch <= '9')){
             return true;
         }
         return false;
@@ -11,6 +11,7 @@ public:
     bool isPalindrome(string s) {
         int n = s.length();
         int st = 0, end = n-1;
+
         while(st < end){
             if(!isAlphaNumeric(s[st])){
                 st++;
@@ -20,12 +21,13 @@ public:
                 end--;
                 continue;
             }
+
             if(tolower(s[st]) != tolower(s[end])){
                 return false;
             }
-            st++;end--;
+            st++; end--;
         }
-        return true;
 
+        return true;
     }
 };
