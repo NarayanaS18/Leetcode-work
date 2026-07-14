@@ -1,43 +1,30 @@
 class Solution {
 public:
 
-    void bfs(int row, int col, vector<vector<char>>& grid){
+    void dfs(int i, int j, vector<vector<char>>& grid){
         int m = grid.size(), n = grid[0].size();
-        grid[row][col] = '0'; //marking as visited in place
-        queue<pair<int, int>> q;
-        q.push({row, col});
-        while(!q.empty()){
-            int row = q.front().first;
-            int col = q.front().second;
-            q.pop();
-
-            int drow[] = {-1,0,1,0};
-            int dcol[] = {0,1,0,-1};
-
-            for(int i=0; i<4; i++){
-                int nrow = row + drow[i];
-                int ncol = col + dcol[i];
-
-                if(nrow >= 0 && nrow < m && ncol >= 0 && ncol < n 
-                && grid[nrow][ncol] == '1'){
-                    grid[nrow][ncol] = '0';// marking as visited before pushing
-                    q.push({nrow, ncol});
-                }
-            }                    
+        if(i < 0 || j < 0 || i >= m || j >= n || grid[i][j] == '0'){
+            return;
         }
+        grid[i][j] = '0'; //sink the island to prevent revisiting
+        dfs(i-1, j, grid);
+        dfs(i, j+1, grid);
+        dfs(i+1, j, grid);
+        dfs(i, j-1, grid);
     }
 
     int numIslands(vector<vector<char>>& grid) {
+        if(grid.empty() || grid[0].empty()) return 0;
         int m = grid.size(), n = grid[0].size();
-        int count = 0;
-        for(int row=0; row<m; row++){
-            for(int col=0; col<n; col++){
-                if(grid[row][col] == '1'){
-                    bfs(row, col, grid);
-                    count++;
+        int noOfIsland = 0;
+        for(int i=0; i<m; i++){
+            for(int j=0; j<n; j++){
+                if(grid[i][j] == '1'){
+                    noOfIsland++;
+                    dfs(i, j, grid);
                 }
             }
         }
-        return count;
+        return noOfIsland;
     }
 };
