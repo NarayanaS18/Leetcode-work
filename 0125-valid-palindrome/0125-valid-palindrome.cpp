@@ -2,7 +2,7 @@ class Solution {
 public:
 
     bool isAlphaNumeric(char ch){
-        if((ch >= '0' && ch <= '9') || (tolower(ch) >= 'a' && tolower(ch) <='z')){
+        if((tolower(ch) >= 'a' && tolower(ch) <= 'z') || (ch >= '0' && ch <= '9')){
             return true;
         }
         return false;
@@ -25,7 +25,7 @@ public:
             }
             st++; end--;
         }
+
         return true;
     }
-
 };
