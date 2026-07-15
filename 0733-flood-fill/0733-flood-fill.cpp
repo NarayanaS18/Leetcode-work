@@ -1,35 +1,35 @@
 class Solution {
 public:
 
-    void dfs(vector<vector<int>>& image, int sr, int sc, int color, int o){
+    void f(vector<vector<int>>& image, int sr, int sc, int color, int o){
+        int n = image.size(), m = image[0].size();
         //check up
         if(sr > 0 && image[sr-1][sc] == o){
             image[sr-1][sc] = color;
-            dfs(image, sr-1, sc, color, o);
-        }
-        //check right
-        if(sc < image[0].size()-1 && image[sr][sc+1] == o){
-            image[sr][sc+1] = color;
-            dfs(image, sr, sc+1, color, o);
+            f(image, sr-1, sc, color, o);
         }
         //check down
-        if(sr < image.size()-1 && image[sr+1][sc] == o){
+        if(sr < n-1 && image[sr+1][sc] == o){
             image[sr+1][sc] = color;
-            dfs(image, sr+1, sc, color, o);
+            f(image, sr+1, sc, color, o);
+        }
+        //check right
+        if(sc < m-1 && image[sr][sc+1] == o){
+            image[sr][sc+1] = color;
+            f(image, sr, sc+1, color, o);
         }
         //check left
         if(sc > 0 && image[sr][sc-1] == o){
             image[sr][sc-1] = color;
-            dfs(image, sr, sc-1, color, o);
+            f(image, sr, sc-1, color, o);
         }
     }
 
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        int m = image.size(), n = image[0].size();
         int o = image[sr][sc];
-        if(color == o) return image;
+        if(o == color) return image;
         image[sr][sc] = color;
-        dfs(image, sr, sc, color, o);
+        f(image, sr, sc, color, o);
         return image;
     }
 };
