@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/NarayanaS18/Leetcode-work/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/NarayanaS18/Leetcode-work/tree/master/0485-max-consecutive-ones) |
+| [0560-subarray-sum-equals-k](https://github.com/NarayanaS18/Leetcode-work/tree/master/0560-subarray-sum-equals-k) |
 | [0733-flood-fill](https://github.com/NarayanaS18/Leetcode-work/tree/master/0733-flood-fill) |
 | [0746-min-cost-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0746-min-cost-climbing-stairs) |
 | [1480-running-sum-of-1d-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/1480-running-sum-of-1d-array) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/NarayanaS18/Leetcode-work/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/NarayanaS18/Leetcode-work/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0268-missing-number) |
+| [0560-subarray-sum-equals-k](https://github.com/NarayanaS18/Leetcode-work/tree/master/0560-subarray-sum-equals-k) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -130,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/NarayanaS18/Leetcode-work/tree/master/0238-product-of-array-except-self) |
+| [0560-subarray-sum-equals-k](https://github.com/NarayanaS18/Leetcode-work/tree/master/0560-subarray-sum-equals-k) |
 | [1480-running-sum-of-1d-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/1480-running-sum-of-1d-array) |
 ## Counting
 |  |
