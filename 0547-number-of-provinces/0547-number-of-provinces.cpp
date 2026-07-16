@@ -25,7 +25,7 @@ public:
         vector<int> vis(n, 0);
         int ans = 0;
         for(int i=0; i<n; i++){
-            if(vis[i] == 0){
+            if(!vis[i]){
                 ans++;
                 dfs(i, vis, adjLs);
             }
