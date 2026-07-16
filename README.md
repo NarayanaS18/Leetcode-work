@@ -113,16 +113,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/NarayanaS18/Leetcode-work/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/NarayanaS18/Leetcode-work/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/NarayanaS18/Leetcode-work/tree/master/0733-flood-fill) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/NarayanaS18/Leetcode-work/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/NarayanaS18/Leetcode-work/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/NarayanaS18/Leetcode-work/tree/master/0733-flood-fill) |
 ## Union-Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/NarayanaS18/Leetcode-work/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/NarayanaS18/Leetcode-work/tree/master/0547-number-of-provinces) |
 ## Matrix
 |  |
 | ------- |
@@ -163,4 +166,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/NarayanaS18/Leetcode-work/tree/master/0062-unique-paths) |
+## Graph Theory
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/NarayanaS18/Leetcode-work/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
