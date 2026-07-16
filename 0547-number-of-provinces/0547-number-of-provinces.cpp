@@ -4,7 +4,7 @@ private:
         vis[node] = 1;
 
         for(auto it : adjLs[node]){
-            if(vis[it] == 0){
+            if(!vis[it]){
                 dfs(it, vis, adjLs);
             }
         }
