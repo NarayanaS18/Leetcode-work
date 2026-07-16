@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/NarayanaS18/Leetcode-work/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NarayanaS18/Leetcode-work/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/NarayanaS18/Leetcode-work/tree/master/0198-house-robber) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/NarayanaS18/Leetcode-work/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0268-missing-number) |
@@ -157,4 +159,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/NarayanaS18/Leetcode-work/tree/master/0003-longest-substring-without-repeating-characters) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/NarayanaS18/Leetcode-work/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
