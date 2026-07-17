@@ -3,9 +3,6 @@ public:
     int search(vector<int>& nums, int target) {
         int n = nums.size();
         if(n == 0) return -1;
-        // if(n == 1 && nums[0] == target){
-        //     return 0;
-        // }
         int st = 0, end = n-1;
         while(st <= end){
             int mid = st + (end-st)/2;
