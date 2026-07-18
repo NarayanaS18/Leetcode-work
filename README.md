@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/NarayanaS18/Leetcode-work/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/NarayanaS18/Leetcode-work/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0344-reverse-string) |
+| [0387-first-unique-character-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0387-first-unique-character-in-a-string) |
 | [0686-repeated-string-match](https://github.com/NarayanaS18/Leetcode-work/tree/master/0686-repeated-string-match) |
 ## Trie
 |  |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/NarayanaS18/Leetcode-work/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/NarayanaS18/Leetcode-work/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0268-missing-number) |
+| [0387-first-unique-character-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0387-first-unique-character-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/NarayanaS18/Leetcode-work/tree/master/0560-subarray-sum-equals-k) |
 ## Dynamic Programming
 |  |
@@ -157,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/NarayanaS18/Leetcode-work/tree/master/0169-majority-element) |
+| [0387-first-unique-character-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0387-first-unique-character-in-a-string) |
 ## Binary Search
 |  |
 | ------- |
@@ -183,4 +186,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/NarayanaS18/Leetcode-work/tree/master/0547-number-of-provinces) |
+## Queue
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0387-first-unique-character-in-a-string) |
 <!---LeetCode Topics End-->
