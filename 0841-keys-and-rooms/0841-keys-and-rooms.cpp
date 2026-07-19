@@ -15,7 +15,22 @@ public:
     bool canVisitAllRooms(vector<vector<int>>& rooms) {
         int n = rooms.size();
         vector<int> vis(n, 0);
-        dfs(0, rooms, vis);
+        queue<int> q;
+        q.push(0);
+        vis[0] = 1;
+
+        while(!q.empty()){
+            int node = q.front();
+            q.pop();
+
+            for(auto it : rooms[node]){
+                if(!vis[it]){
+                    vis[it] = 1;
+                    q.push(it);
+                }
+            }
+        }
+
         for(int i=0; i<vis.size(); i++){
             if(vis[i] != 1){
                 return false;
