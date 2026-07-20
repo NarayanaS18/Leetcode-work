@@ -7,21 +7,18 @@ public:
         vector<int> ans;
 
         for(int i=0; i<n; i++){
-            pCount[p[i] - 'a']++;
-            window[s[i] - 'a']++;
+            pCount[p[i]-'a']++;
+            window[s[i]-'a']++;
         }
-        if(pCount == window){
-            ans.push_back(0);
-        }
+        if(pCount == window) ans.push_back(0);
+
         int left = 0;
-        for(int right=n; right<m; right++){
-            window[s[right]-'a']++;
+        for(int i=n; i<m; i++){
+            window[s[i]-'a']++;
             window[s[left]-'a']--;
             left++;
 
-            if(pCount == window){
-                ans.push_back(left);
-            } 
+            if(pCount == window) ans.push_back(left);
         }
         return ans;
     }
