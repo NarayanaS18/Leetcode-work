@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/NarayanaS18/Leetcode-work/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0387-first-unique-character-in-a-string) |
+| [0392-is-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0392-is-subsequence) |
 | [0686-repeated-string-match](https://github.com/NarayanaS18/Leetcode-work/tree/master/0686-repeated-string-match) |
 ## Trie
 |  |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NarayanaS18/Leetcode-work/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/NarayanaS18/Leetcode-work/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/NarayanaS18/Leetcode-work/tree/master/0322-coin-change) |
+| [0392-is-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0392-is-subsequence) |
 | [0509-fibonacci-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0509-fibonacci-number) |
 | [0746-min-cost-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0746-min-cost-climbing-stairs) |
 | [1137-n-th-tribonacci-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/1137-n-th-tribonacci-number) |
@@ -100,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/NarayanaS18/Leetcode-work/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0344-reverse-string) |
+| [0392-is-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0392-is-subsequence) |
 ## Sorting
 |  |
 | ------- |
