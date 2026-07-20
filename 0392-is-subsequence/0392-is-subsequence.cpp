@@ -8,7 +8,7 @@ public:
             if(s[i] != t[j]){
                 j++;
             }
-            else if(s[i] == t[j]){
+            if(s[i] == t[j]){
                 temp += t[j];
                 i++; j++;
             }
