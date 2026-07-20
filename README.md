@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/NarayanaS18/Leetcode-work/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/NarayanaS18/Leetcode-work/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/NarayanaS18/Leetcode-work/tree/master/0643-maximum-average-subarray-i) |
+| [0695-max-area-of-island](https://github.com/NarayanaS18/Leetcode-work/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/NarayanaS18/Leetcode-work/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/NarayanaS18/Leetcode-work/tree/master/0733-flood-fill) |
 | [0746-min-cost-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0746-min-cost-climbing-stairs) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/NarayanaS18/Leetcode-work/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/NarayanaS18/Leetcode-work/tree/master/0547-number-of-provinces) |
+| [0695-max-area-of-island](https://github.com/NarayanaS18/Leetcode-work/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/NarayanaS18/Leetcode-work/tree/master/0733-flood-fill) |
 | [0841-keys-and-rooms](https://github.com/NarayanaS18/Leetcode-work/tree/master/0841-keys-and-rooms) |
 | [1020-number-of-enclaves](https://github.com/NarayanaS18/Leetcode-work/tree/master/1020-number-of-enclaves) |
@@ -153,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/NarayanaS18/Leetcode-work/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/NarayanaS18/Leetcode-work/tree/master/0322-coin-change) |
 | [0547-number-of-provinces](https://github.com/NarayanaS18/Leetcode-work/tree/master/0547-number-of-provinces) |
+| [0695-max-area-of-island](https://github.com/NarayanaS18/Leetcode-work/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/NarayanaS18/Leetcode-work/tree/master/0733-flood-fill) |
 | [0841-keys-and-rooms](https://github.com/NarayanaS18/Leetcode-work/tree/master/0841-keys-and-rooms) |
 | [0994-rotting-oranges](https://github.com/NarayanaS18/Leetcode-work/tree/master/0994-rotting-oranges) |
@@ -163,12 +166,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/NarayanaS18/Leetcode-work/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/NarayanaS18/Leetcode-work/tree/master/0547-number-of-provinces) |
+| [0695-max-area-of-island](https://github.com/NarayanaS18/Leetcode-work/tree/master/0695-max-area-of-island) |
 | [1020-number-of-enclaves](https://github.com/NarayanaS18/Leetcode-work/tree/master/1020-number-of-enclaves) |
 | [1971-find-if-path-exists-in-graph](https://github.com/NarayanaS18/Leetcode-work/tree/master/1971-find-if-path-exists-in-graph) |
 ## Matrix
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/NarayanaS18/Leetcode-work/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/NarayanaS18/Leetcode-work/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/NarayanaS18/Leetcode-work/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/NarayanaS18/Leetcode-work/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/NarayanaS18/Leetcode-work/tree/master/1020-number-of-enclaves) |
