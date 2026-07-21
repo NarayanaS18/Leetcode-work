@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/NarayanaS18/Leetcode-work/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/NarayanaS18/Leetcode-work/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/NarayanaS18/Leetcode-work/tree/master/0322-coin-change) |
 | [0485-max-consecutive-ones](https://github.com/NarayanaS18/Leetcode-work/tree/master/0485-max-consecutive-ones) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/NarayanaS18/Leetcode-work/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0392-is-subsequence) |
 ## Sorting
@@ -199,12 +201,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/NarayanaS18/Leetcode-work/tree/master/0035-search-insert-position) |
 | [0268-missing-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0268-missing-number) |
 | [0278-first-bad-version](https://github.com/NarayanaS18/Leetcode-work/tree/master/0278-first-bad-version) |
+| [0287-find-the-duplicate-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0300-longest-increasing-subsequence) |
 | [0704-binary-search](https://github.com/NarayanaS18/Leetcode-work/tree/master/0704-binary-search) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0287-find-the-duplicate-number) |
 ## Stack
 |  |
 | ------- |
