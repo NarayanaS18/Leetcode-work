@@ -1,27 +1,30 @@
 class Solution {
 public:
 
-    bool isSame(int freq[], int windFreq[]){
+    bool isSame(int a[], int b[]){
         for(int i=0; i<26; i++){
-            if(freq[i] != windFreq[i]) return false;
+            if(a[i] != b[i]) return false;
         }
         return true;
     }
-    
+
     bool checkInclusion(string s1, string s2) {
+        int m = s1.length(), n = s2.length();
         int freq[26] = {0};
-        for(char ch : s1){
-            freq[ch-'a']++;
+
+        for(char c : s1){
+            freq[c-'a']++;
         }
-        int windSize = s1.length();
-        
-        for(int i=0; i<s2.length(); i++){
+        int windSize = m;
+
+        for(int i=0; i<n; i++){
             int windIdx = 0, idx=i;
             int windFreq[26] = {0};
 
-            while(windIdx < windSize && idx < s2.length()){
+            while(windIdx < windSize && idx < n){
                 windFreq[s2[idx]-'a']++;
-                windIdx++; idx++;
+                idx++;
+                windIdx++;
             }
 
             if(isSame(freq, windFreq)){
