@@ -8,8 +8,8 @@ public:
             count[nums[i]]++;
         }
         for(int i=0; i<n; i++){
-            if(count[nums[i]] > 1){
-                return nums[i];
+            if(count[i] > 1){
+                return i;
             }
         }
         return -1;
