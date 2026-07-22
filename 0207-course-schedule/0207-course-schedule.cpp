@@ -20,11 +20,11 @@ public:
                 q.push(i);
             }
         }
-        int cnt = 0;
+        vector<int> topo;
         while(!q.empty()){
             int node = q.front();
             q.pop();
-            cnt++;
+            topo.push_back(node);
 
             for(auto it : adjLs[node]){
                 indegree[it]--;
@@ -32,6 +32,6 @@ public:
             }
         }
 
-        return cnt == V ? true : false;
+        return topo.size() == V ? true : false;
     }
 };
