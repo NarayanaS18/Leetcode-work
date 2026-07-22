@@ -7,15 +7,14 @@ public:
             sum += nums[j];
 
             while(sum >= target){
-                if(j-i+1 < minlen){
-                    minlen = j-i+1;
-                }
+                int len = j-i+1;
+                minlen = min(len, minlen);
                 sum -= nums[i];
                 i++;
             }
             j++;
         }
-        if(minlen >= 1e9) return 0;
-        return minlen;
+
+        return (minlen >= 1e9) ? 0 : minlen;
     }
 };
