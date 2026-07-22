@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0392-is-subsequence) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0516-longest-palindromic-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0516-longest-palindromic-subsequence) |
 | [0567-permutation-in-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0567-permutation-in-string) |
 | [0686-repeated-string-match](https://github.com/NarayanaS18/Leetcode-work/tree/master/0686-repeated-string-match) |
 | [1143-longest-common-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/1143-longest-common-subsequence) |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0416-partition-equal-subset-sum) |
 | [0509-fibonacci-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0509-fibonacci-number) |
+| [0516-longest-palindromic-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0516-longest-palindromic-subsequence) |
 | [0746-min-cost-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0746-min-cost-climbing-stairs) |
 | [1137-n-th-tribonacci-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/1143-longest-common-subsequence) |
