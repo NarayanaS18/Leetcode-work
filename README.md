@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0567-permutation-in-string) |
 | [0686-repeated-string-match](https://github.com/NarayanaS18/Leetcode-work/tree/master/0686-repeated-string-match) |
+| [1143-longest-common-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/1143-longest-common-subsequence) |
 ## Trie
 |  |
 | ------- |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0509-fibonacci-number) |
 | [0746-min-cost-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0746-min-cost-climbing-stairs) |
 | [1137-n-th-tribonacci-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/1137-n-th-tribonacci-number) |
+| [1143-longest-common-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/1143-longest-common-subsequence) |
 ## Divide and Conquer
 |  |
 | ------- |
