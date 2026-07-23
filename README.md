@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/NarayanaS18/Leetcode-work/tree/master/0322-coin-change) |
+| [0414-third-maximum-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0414-third-maximum-number) |
 | [0416-partition-equal-subset-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/NarayanaS18/Leetcode-work/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/NarayanaS18/Leetcode-work/tree/master/0560-subarray-sum-equals-k) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/NarayanaS18/Leetcode-work/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/NarayanaS18/Leetcode-work/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0268-missing-number) |
+| [0414-third-maximum-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0414-third-maximum-number) |
 ## Math
 |  |
 | ------- |
