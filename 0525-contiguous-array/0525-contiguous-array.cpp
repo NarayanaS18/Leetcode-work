@@ -2,18 +2,16 @@ class Solution {
 public:
     int findMaxLength(vector<int>& nums) {
         int n = nums.size();
+        vector<int> temp(2*n + 1, INT_MIN);
         int maxlen = 0, sum = 0;
-        unordered_map<int, int> mp;
-        mp[0] = -1; //this will handle subarray that starts from 0
-        //prefix sum, index
-        // 0 -> -1 and 1 -> +1
+        temp[n] = -1;
         for(int i=0; i<n; i++){
             sum += (nums[i] == 0) ? -1 : 1;
-            if(mp.find(sum) != mp.end()){
-                maxlen = max(maxlen, i - mp[sum]);
+            if(temp[sum + n] >= -1){
+                maxlen = max(maxlen, i - temp[sum+n]);
             }
             else{
-                mp[sum] = i;
+                temp[sum+n] = i;
             }
         }
         return maxlen;
