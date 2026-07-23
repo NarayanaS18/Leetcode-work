@@ -1,29 +1,24 @@
 class Solution {
 public:
     string convert(string s, int numRows) {
-        int n = s.length();
         if(numRows == 1 || numRows >= s.length()){
             return s;
         }
-        int idx = 0, d = 1;
-        vector<vector<char>> rows(numRows);
-
+        vector<string> rows(numRows);
+        int currRow = 0, direction = 1;
+        
         for(char c : s){
-            rows[idx].push_back(c);
-            if(idx == 0){
-                d = 1;
-            }
-            else if(idx == numRows - 1){
-                d = -1;
-            }
-            idx += d;
+            rows[currRow] += c;
+            if(currRow == 0) direction = 1;
+            else if(currRow == numRows-1) direction = -1;
+
+            currRow += direction;
         }
-        string result = "";
-        for(const auto& row : rows){
-            for(char c : row){
-                result += c;
-            }
+        string result;
+        for(const string& row : rows){
+            result += row;
         }
+
         return result;
     }
 };
