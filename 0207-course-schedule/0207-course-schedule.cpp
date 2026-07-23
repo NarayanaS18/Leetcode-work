@@ -20,17 +20,17 @@ public:
             }
         }
 
-        vector<int> todo;
+        int cnt = 0;
         while(!q.empty()){
             int node = q.front();
             q.pop();
-            todo.push_back(node);
+            cnt++;
 
             for(int it : adjLs[node]){
                 indegree[it]--;
                 if(indegree[it] == 0) q.push(it);
             }
         }
-        return todo.size() == V;
+        return cnt == V;
     }
 };
