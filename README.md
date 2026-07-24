@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0414-third-maximum-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0414-third-maximum-number) |
 | [0416-partition-equal-subset-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/NarayanaS18/Leetcode-work/tree/master/0485-max-consecutive-ones) |
+| [0494-target-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0494-target-sum) |
 | [0525-contiguous-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/NarayanaS18/Leetcode-work/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/NarayanaS18/Leetcode-work/tree/master/0643-maximum-average-subarray-i) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/NarayanaS18/Leetcode-work/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0516-longest-palindromic-subsequence) |
 | [0746-min-cost-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0746-min-cost-climbing-stairs) |
@@ -284,4 +286,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/NarayanaS18/Leetcode-work/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/NarayanaS18/Leetcode-work/tree/master/0210-course-schedule-ii) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
