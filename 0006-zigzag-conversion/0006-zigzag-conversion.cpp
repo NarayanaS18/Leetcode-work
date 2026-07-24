@@ -3,9 +3,8 @@ public:
     string convert(string s, int numRows) {
         int n = s.length(), m = numRows;
         if(m == 1 || m > n) return s;
-
-        int curRow = 0, direction = 0;
         vector<string> rows(m);
+        int curRow = 0, direction = 0;
         for(char c : s){
             rows[curRow] += c;
 
@@ -13,13 +12,12 @@ public:
             else if(curRow == m-1) direction = -1;
 
             curRow += direction;
-        }  
-
-        string ans;
-        for(const string& r : rows){
-            ans += r;
         }
 
+        string ans = "";
+        for(string &s : rows){
+            ans += s;
+        }
         return ans;
     }
 };
