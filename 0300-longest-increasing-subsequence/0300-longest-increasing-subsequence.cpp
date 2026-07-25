@@ -1,5 +1,17 @@
 class Solution {
 public:
+
+    int f(int curr, int prev, vector<int>& nums, vector<vector<int>>& dp){
+        if(curr == nums.size()) return 0;
+        if(dp[curr][prev+1] != -1) return dp[curr][prev+1];
+        int pick = 0, notPick = 0;
+        notPick = 0 + f(curr+1, curr, nums, dp);
+        if(prev == -1 || nums[prev] < nums[curr]){
+            pick = 1 + f(curr+1, curr, nums, dp);
+        }
+        return dp[curr][prev+1] = max(pick, notPick);
+    }
+
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
         vector<int> dp(n, 1);
