@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/NarayanaS18/Leetcode-work/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/NarayanaS18/Leetcode-work/tree/master/0643-maximum-average-subarray-i) |
+| [0674-longest-continuous-increasing-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0674-longest-continuous-increasing-subsequence) |
 | [0695-max-area-of-island](https://github.com/NarayanaS18/Leetcode-work/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/NarayanaS18/Leetcode-work/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/NarayanaS18/Leetcode-work/tree/master/0733-flood-fill) |
