@@ -19,7 +19,7 @@ public:
                 cnt += mp[val];
             }
             else if(mp.find(val) == mp.end()){
-                mp[val] = i;
+                mp[val] = 0;
             }
             mp[prefixSum[i]]++;
         }
