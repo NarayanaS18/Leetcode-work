@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0494-target-sum) |
 | [0525-contiguous-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/NarayanaS18/Leetcode-work/tree/master/0560-subarray-sum-equals-k) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0643-maximum-average-subarray-i](https://github.com/NarayanaS18/Leetcode-work/tree/master/0643-maximum-average-subarray-i) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0674-longest-continuous-increasing-subsequence) |
 | [0695-max-area-of-island](https://github.com/NarayanaS18/Leetcode-work/tree/master/0695-max-area-of-island) |
@@ -141,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0567-permutation-in-string) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
 ## Sorting
 |  |
 | ------- |
@@ -153,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/NarayanaS18/Leetcode-work/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0268-missing-number) |
 | [0414-third-maximum-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0414-third-maximum-number) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
 ## Math
 |  |
 | ------- |
@@ -260,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/NarayanaS18/Leetcode-work/tree/master/0020-valid-parentheses) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
 ## Sliding Window
 |  |
 | ------- |
@@ -305,4 +309,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0203-remove-linked-list-elements](https://github.com/NarayanaS18/Leetcode-work/tree/master/0203-remove-linked-list-elements) |
+## Greedy
+|  |
+| ------- |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
 <!---LeetCode Topics End-->
