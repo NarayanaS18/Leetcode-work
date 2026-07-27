@@ -1,0 +1,25 @@
+class Solution {
+public:
+    string addStrings(string num1, string num2) {
+        int m = num1.length(), n = num2.length();
+        int i = m-1, j = n-1, carry = 0;
+        string ans = "";
+        while(i >= 0 || j >= 0 || carry != 0){
+            int sum = carry;
+
+            if(i >= 0){
+                sum += num1[i]-'0';
+                i--;
+            }
+            if(j >= 0){
+                sum += num2[j]-'0';
+                j--;
+            }
+            ans += to_string(sum%10);
+            carry = sum/10;
+        }
+
+        reverse(ans.begin(), ans.end());
+        return ans;        
+    }
+};
