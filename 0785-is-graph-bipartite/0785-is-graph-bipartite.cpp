@@ -4,15 +4,11 @@ public:
     bool dfs(int node, int col, vector<int>& color, vector<vector<int>>& graph){
         color[node] = col;
 
-        for(auto it : graph[node]){
+        for(int it : graph[node]){
             if(color[it] == -1){
-                if(dfs(it, !col, color, graph) == false){
-                    return false;
-                }
+                if(!dfs(it, !col, color, graph)) return false;
             }
-            else if(color[it] == col){
-                return false;
-            }
+            else if(color[it] == color[node]) return false;
         }
         return true;
     }
@@ -23,9 +19,7 @@ public:
 
         for(int i=0; i<n; i++){
             if(color[i] == -1){
-                if(dfs(i, 0, color, graph) == false){
-                    return false;
-                }
+                if(!dfs(i, 0, color, graph)) return false;
             }
         }
         return true;
