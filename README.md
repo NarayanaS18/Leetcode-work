@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/NarayanaS18/Leetcode-work/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0394-decode-string) |
 | [0415-add-strings](https://github.com/NarayanaS18/Leetcode-work/tree/master/0415-add-strings) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0516-longest-palindromic-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0516-longest-palindromic-subsequence) |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0203-remove-linked-list-elements](https://github.com/NarayanaS18/Leetcode-work/tree/master/0203-remove-linked-list-elements) |
+| [0394-decode-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0394-decode-string) |
 | [0509-fibonacci-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0509-fibonacci-number) |
 ## Depth-First Search
 |  |
@@ -279,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/NarayanaS18/Leetcode-work/tree/master/0020-valid-parentheses) |
 | [0071-simplify-path](https://github.com/NarayanaS18/Leetcode-work/tree/master/0071-simplify-path) |
+| [0394-decode-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0394-decode-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
 ## Sliding Window
 |  |
