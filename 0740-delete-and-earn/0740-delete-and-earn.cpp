@@ -21,7 +21,15 @@ public:
             points[nums[i]] += nums[i];
         }
 
-        vector<int> dp(maxVal+1, -1);
-        return f(maxVal, points, dp);
+        int prev2 = 0, prev = 0;
+        for(int i=1; i<maxVal+1; i++){
+            int pick = points[i];
+            if(i > 1) pick += prev2;
+            int notPick = prev;
+            int cur = max(pick, notPick);
+            prev2 = prev;
+            prev = cur;
+        }
+        return prev;
     }
 };
