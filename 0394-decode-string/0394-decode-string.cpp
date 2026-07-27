@@ -1,6 +1,7 @@
 class Solution {
 public:
     string decodeString(string s) {
+        int n = s.length();
         stack<int> numStack;
         stack<string> strStack;
         int curNum = 0;
@@ -11,8 +12,8 @@ public:
                 curNum = curNum*10 + (ch-'0');
             }
             else if(ch == '['){
-                numStack.push(curNum);
                 strStack.push(curStr);
+                numStack.push(curNum);
                 curNum = 0;
                 curStr = "";
             }
