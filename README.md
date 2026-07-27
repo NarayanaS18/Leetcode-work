@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/NarayanaS18/Leetcode-work/tree/master/0322-coin-change) |
 | [0414-third-maximum-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0414-third-maximum-number) |
 | [0416-partition-equal-subset-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0416-partition-equal-subset-sum) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/NarayanaS18/Leetcode-work/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0494-target-sum) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/NarayanaS18/Leetcode-work/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0387-first-unique-character-in-a-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0525-contiguous-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/NarayanaS18/Leetcode-work/tree/master/0560-subarray-sum-equals-k) |
@@ -162,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/NarayanaS18/Leetcode-work/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0268-missing-number) |
 | [0414-third-maximum-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0414-third-maximum-number) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
 ## Math
 |  |
