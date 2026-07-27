@@ -20,15 +20,17 @@ public:
             points[val] += val;
         }
 
-        vector<int> dp(maxVal+1, 0);
+        int prev2 = 0, prev = 0;
         for(int i=1; i<points.size(); i++){
             int pick = points[i];
             if(i > 1){
-                pick += dp[i-2];
+                pick += prev2;
             }
-            int notPick = dp[i-1];
-            dp[i] = max(pick, notPick);
+            int notPick = prev;
+            int cur = max(pick, notPick);
+            prev2 = prev;
+            prev = cur;
         }
-        return dp[maxVal];
+        return prev;
     }
 };
