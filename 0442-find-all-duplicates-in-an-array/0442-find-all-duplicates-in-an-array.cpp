@@ -2,7 +2,6 @@ class Solution {
 public:
     vector<int> findDuplicates(vector<int>& nums) {
         int n = nums.size();
-        if(n == 1) return {};
         vector<int> ans;
         for(int i=0; i<n; i++){
             int idx = abs(nums[i]) - 1;
