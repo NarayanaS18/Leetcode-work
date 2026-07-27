@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/NarayanaS18/Leetcode-work/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/NarayanaS18/Leetcode-work/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/NarayanaS18/Leetcode-work/tree/master/0733-flood-fill) |
+| [0740-delete-and-earn](https://github.com/NarayanaS18/Leetcode-work/tree/master/0740-delete-and-earn) |
 | [0746-min-cost-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0746-min-cost-climbing-stairs) |
 | [0994-rotting-oranges](https://github.com/NarayanaS18/Leetcode-work/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/NarayanaS18/Leetcode-work/tree/master/1020-number-of-enclaves) |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/NarayanaS18/Leetcode-work/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0567-permutation-in-string) |
+| [0740-delete-and-earn](https://github.com/NarayanaS18/Leetcode-work/tree/master/0740-delete-and-earn) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -118,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0516-longest-palindromic-subsequence) |
+| [0740-delete-and-earn](https://github.com/NarayanaS18/Leetcode-work/tree/master/0740-delete-and-earn) |
 | [0746-min-cost-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0746-min-cost-climbing-stairs) |
 | [1137-n-th-tribonacci-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/1143-longest-common-subsequence) |
