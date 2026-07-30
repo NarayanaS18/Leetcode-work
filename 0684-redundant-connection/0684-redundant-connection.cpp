@@ -1,44 +1,35 @@
 class Solution {
+private:
+    vector<int> parent;
 public:
 
-    bool bfs(int src, int tar, vector<vector<int>>& adjLs, vector<bool> vis){
-        vis[src] = true;
-        queue<int> q;
-        q.push(src);
+    int find(int node){
+        if(parent[node] == node) return node;
+        return parent[node] = find(parent[node]);
+    }
 
-        while(!q.empty()){
-            int node = q.front();
-            q.pop();
+    bool unionNodes(int u, int v){
+        int rootU = find(u);
+        int rootV = find(v);
 
-            if(node == tar) return true;
-
-            for(int it : adjLs[node]){
-                if(!vis[it]){
-                    vis[it] = true;
-                    q.push(it);
-                }
-            }
-        }
-        return false;
+        if(rootU == rootV) return false;
+        parent[rootU] = rootV;
+        return true;
     }
 
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
         int V = edges.size();
-        vector<vector<int>> adjLs(V+1);
+        parent.resize(V+1);
 
-        for(auto &edge : edges){
-            int u = edge[0], v = edge[1];
-            
-            if(!adjLs[u].empty() && !adjLs[v].empty()){
-                vector<bool> vis(V+1, false);
-                if(bfs(u, v, adjLs, vis)){
-                    return edge;
-                }
-            }
-
-            adjLs[u].push_back(v);
-            adjLs[v].push_back(u);
+        for(int i=1; i<=V; i++){
+            parent[i] = i;
         }
+
+        for(auto& edge : edges){
+            int u = edge[0], v = edge[1];
+            if(!unionNodes(u, v)) return edge;
+        }
+
         return {};
     }
 };
