@@ -1,13 +1,22 @@
 class Solution {
 public:
 
-    bool dfs(int src, int tar, vector<vector<int>>& adjLs, vector<bool>& vis){
-        if(src == tar) return true;
+    bool bfs(int src, int tar, vector<vector<int>>& adjLs, vector<bool> vis){
         vis[src] = true;
+        queue<int> q;
+        q.push(src);
 
-        for(int it : adjLs[src]){
-            if(!vis[it]){
-                if(dfs(it, tar, adjLs, vis)) return true;
+        while(!q.empty()){
+            int node = q.front();
+            q.pop();
+
+            if(node == tar) return true;
+
+            for(int it : adjLs[node]){
+                if(!vis[it]){
+                    vis[it] = true;
+                    q.push(it);
+                }
             }
         }
         return false;
@@ -22,7 +31,7 @@ public:
             
             if(!adjLs[u].empty() && !adjLs[v].empty()){
                 vector<bool> vis(V+1, false);
-                if(dfs(u, v, adjLs, vis)){
+                if(bfs(u, v, adjLs, vis)){
                     return edge;
                 }
             }
