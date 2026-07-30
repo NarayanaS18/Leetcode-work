@@ -1,13 +1,13 @@
 class Solution {
 public:
 
-    bool dfs(int src, int dest, vector<vector<int>>& adjLs, vector<bool> vis){
-        if(src == dest) return true;
+    bool dfs(int src, int tar, vector<vector<int>>& adjLs, vector<bool>& vis){
+        if(src == tar) return true;
         vis[src] = true;
 
         for(int it : adjLs[src]){
             if(!vis[it]){
-                if(dfs(it, dest, adjLs, vis)) return true;
+                if(dfs(it, tar, adjLs, vis)) return true;
             }
         }
         return false;
@@ -17,10 +17,10 @@ public:
         int V = edges.size();
         vector<vector<int>> adjLs(V+1);
 
-        for(auto& edge : edges){
+        for(auto &edge : edges){
             int u = edge[0], v = edge[1];
-
-            if(!adjLs[u].empty() && ! adjLs[v].empty()){
+            
+            if(!adjLs[u].empty() && !adjLs[v].empty()){
                 vector<bool> vis(V+1, false);
                 if(dfs(u, v, adjLs, vis)){
                     return edge;
