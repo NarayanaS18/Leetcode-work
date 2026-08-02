@@ -9,15 +9,27 @@ public:
             else c2++;
         }
 
-        for(int i=0; i<c0; i++){
-            nums[i] = 0;
-        }
+        // for(int i=0; i<c0; i++){
+        //     nums[i] = 0;
+        // }
         int m = c0+c1;
-        for(int i=c0; i<m; i++){
-            nums[i] = 1;
-        }
-        for(int i=m; i<n; i++){
-            nums[i] = 2;
+        // for(int i=c0; i<m; i++){
+        //     nums[i] = 1;
+        // }
+        // for(int i=m; i<n; i++){
+        //     nums[i] = 2;
+        // }
+
+        for(int i=0; i<n; i++){
+            if(i >= 0 && i < c0){
+                nums[i] = 0;
+            }
+            else if(i >= c0 && i < m){
+                nums[i] = 1;
+            }
+            else{
+                nums[i] = 2;
+            }
         }
     }
 };
