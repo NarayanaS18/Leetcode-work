@@ -5,7 +5,7 @@ public:
         int maxSum = INT_MIN, sum = 0;
         for(int i=0; i<n; i++){
             sum += nums[i];
-            maxSum = max(maxSum, sum);
+            maxSum = max(sum, maxSum);
             if(sum < 0){
                 sum = 0;
             }
