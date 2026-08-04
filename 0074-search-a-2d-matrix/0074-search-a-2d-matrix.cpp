@@ -6,16 +6,9 @@ public:
         int st = 0, end = n-1;
         while(st <= end){
             int mid = st + (end-st)/2;
-
-            if(matrix[row][mid] == tar){
-                return true;
-            }
-            else if(matrix[row][mid] < tar){
-                st = mid+1;
-            }
-            else{
-                end = mid-1;
-            }
+            if(matrix[row][mid] == tar) return true;
+            if(matrix[row][mid] < tar) st = mid+1;
+            else end = mid-1;
         }
         return false;
     }
@@ -24,11 +17,14 @@ public:
         int m = matrix.size(), n = matrix[0].size();
         int sr = 0, er = m-1;
         while(sr <= er){
-            int mr = sr + (er-sr)/2;
+            int mr = sr + (er - sr)/2;
+
             if(matrix[mr][0] <= target && matrix[mr][n-1] >= target){
-                return binarySearch(matrix, mr, target);
+                if(binarySearch(matrix, mr, target)){
+                    return true;
+                }
             }
-            else if(matrix[mr][n-1] <= target){
+            if(matrix[mr][n-1] < target){
                 sr = mr+1;
             }
             else{
