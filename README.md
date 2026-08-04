@@ -358,4 +358,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/NarayanaS18/Leetcode-work/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
