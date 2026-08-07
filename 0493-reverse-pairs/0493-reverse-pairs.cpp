@@ -43,7 +43,7 @@ public:
         int cnt = 0;
         if(low >= high) return cnt;
         
-        int mid = (low + high)/2;
+        int mid = low + (high - low)/2;
         cnt += mergeSort(arr, low, mid);
         cnt += mergeSort(arr, mid+1, high);
         cnt += countPairs(arr, low, mid, high);
