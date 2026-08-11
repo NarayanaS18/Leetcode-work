@@ -18,7 +18,7 @@ public:
             s.insert(nums[i]);
         }        
 
-        for(auto it : s){
+        for(auto &it : s){
             if(s.find(it-1) == s.end()){
                 int cnt = 1;
                 int x = it;
