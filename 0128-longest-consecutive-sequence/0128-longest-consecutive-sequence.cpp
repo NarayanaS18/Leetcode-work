@@ -12,23 +12,19 @@ public:
     int longestConsecutive(vector<int>& nums){
         int n = nums.size();
         if(n == 0) return 0;
-        int longest = 1, cnt = 0;
-        unordered_set<int> s;
+        sort(nums.begin(), nums.end());
+        int longest = 1, cnt = 0, lastSmaller = INT_MIN;
         for(int i=0; i<n; i++){
-            s.insert(nums[i]);
-        }        
-
-        for(auto &it : s){
-            if(s.find(it-1) == s.end()){
-                int cnt = 1;
-                int x = it;
-
-                while(s.find(x+1) != s.end()){
-                    cnt++;
-                    x++;
-                }
-                longest = max(cnt, longest);
+            if(nums[i]-1 == lastSmaller){
+                cnt++;
+                lastSmaller = nums[i];
             }
+            
+            else if(nums[i] != lastSmaller){
+                cnt = 1;
+                lastSmaller = nums[i];
+            }
+            longest = max(cnt, longest);
         }
         return longest;
     }
