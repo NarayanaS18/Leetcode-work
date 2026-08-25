@@ -13,9 +13,9 @@ public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
         if(list1 == NULL) return list2;
         if(list2 == NULL) return list1;
-        ListNode* dummyNode = new ListNode(-1);
-        ListNode* temp = dummyNode;
-        
+        ListNode* dummy = new ListNode(-1);
+        ListNode* temp = dummy;
+
         while(list1 != NULL && list2 != NULL){
             if(list1->val < list2->val){
                 temp->next = list1;
@@ -33,6 +33,7 @@ public:
         else{
             temp->next = list2;
         }
-        return dummyNode->next;
+        
+        return dummy->next;
     }
 };
