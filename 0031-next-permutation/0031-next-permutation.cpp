@@ -12,10 +12,9 @@ public:
             reverse(nums.begin(), nums.end());
             return;
         }
-
         for(int i=n-1; i>idx; i--){
             if(nums[i] > nums[idx]){
-                swap(nums[i], nums[idx]);
+                swap(nums[idx], nums[i]);
                 break;
             }
         }
