@@ -11,23 +11,40 @@
 class Solution {
 public:
 
-    bool isPalindrome(ListNode* head) {
-        ListNode* temp = head;
-        stack<int> s;
-
-        while(temp != NULL){
-            s.push(temp->val);
-            temp = temp->next;
+    ListNode* reverseList(ListNode* head) {
+        if(head == NULL || head->next == NULL){
+            return head;
         }
-        temp = head;
-        while(temp != NULL){
-            if(s.top() != temp->val){
+
+        ListNode* newhead = reverseList(head->next);
+        ListNode* front = head->next;
+        front->next = head;
+        head->next = NULL;
+
+        return newhead;
+    }
+
+    bool isPalindrome(ListNode* head) {
+        ListNode* slow = head;
+        ListNode* fast = head;
+
+        while(fast->next != NULL && fast->next->next != NULL){
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        ListNode* newhead = reverseList(slow->next);
+
+        ListNode* t1 = head;
+        ListNode* t2 = newhead;
+        while(t2 != NULL){
+            if(t1->val != t2->val){
+                reverseList(newhead);
                 return false;
             }
-            s.pop();
-            temp = temp->next;
+            t1 = t1->next;
+            t2 = t2->next;
         }
-
+        reverseList(newhead);
         return true;
     }
 };
