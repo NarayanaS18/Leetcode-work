@@ -11,17 +11,15 @@
 class Solution {
 public:
 
-    ListNode* reverseList(ListNode* head) {
-        ListNode* temp = head;
-        ListNode* prev = nullptr;
+    ListNode* reverseList(ListNode* head){
+        if(head == NULL || head->next == NULL) return head;
 
-        while(temp){
-            ListNode* front = temp->next;
-            temp->next = prev;
-            prev = temp;
-            temp = front;            
-        }
-        return prev;
+        ListNode* newhead = reverseList(head->next);
+        ListNode* front = head->next;
+        front->next = head;
+        head->next = NULL;
+
+        return newhead;
     }
 
     ListNode* findKNode(ListNode* temp, int k){
@@ -37,25 +35,23 @@ public:
         ListNode* temp = head;
         ListNode* prevNode = NULL;
 
-        while(temp != NULL){
-            ListNode* kThNode = findKNode(temp, k);
+        while(temp){
+            ListNode* kNode = findKNode(temp, k);
 
-            if(kThNode == NULL){
+            if(kNode == NULL){
                 if(prevNode) prevNode->next = temp;
                 break;
             }
-
-            ListNode* nextNode = kThNode->next;
-            kThNode->next = NULL;
+            ListNode* nextNode = kNode->next;
+            kNode->next = NULL;
             reverseList(temp);
 
             if(temp == head){
-                head = kThNode;
+                head = kNode;
             }
             else{
-                prevNode->next = kThNode;
+                prevNode->next = kNode;
             }
-
             prevNode = temp;
             temp = nextNode;
         }
