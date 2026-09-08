@@ -11,46 +11,54 @@
 class Solution {
 public:
 
-    void Reverse(vector<int>& arr, int st, int end){
-        while(st <= end){
-            swap(arr[st], arr[end]);
-            st++;
-            end--;
+    ListNode* reverseList(ListNode* head) {
+        ListNode* temp = head;
+        ListNode* prev = nullptr;
+
+        while(temp){
+            ListNode* front = temp->next;
+            temp->next = prev;
+            prev = temp;
+            temp = front;            
         }
+        return prev;
     }
 
-    ListNode* convertArr2LL(vector<int>& arr){
-        if(arr.empty()) return NULL;
-        ListNode* head = new ListNode(arr[0]);
-        ListNode* mover = head;
-
-        for(int i=1; i<arr.size(); i++){
-            ListNode* temp = new ListNode(arr[i]);
-            mover->next = temp;
-            mover = mover->next;
+    ListNode* findKNode(ListNode* temp, int k){
+        k -= 1;
+        while(temp != NULL && k > 0){
+            k--;
+            temp = temp->next;
         }
-        return head;
+        return temp;
     }
 
     ListNode* reverseKGroup(ListNode* head, int k) {
-        if(head == NULL || head->next == NULL){
-            return head;
-        }
-
         ListNode* temp = head;
-        vector<int> arr;
-        while(temp){
-            arr.push_back(temp->val);
-            temp = temp->next;
+        ListNode* prevNode = NULL;
+
+        while(temp != NULL){
+            ListNode* kThNode = findKNode(temp, k);
+
+            if(kThNode == NULL){
+                if(prevNode) prevNode->next = temp;
+                break;
+            }
+
+            ListNode* nextNode = kThNode->next;
+            kThNode->next = NULL;
+            reverseList(temp);
+
+            if(temp == head){
+                head = kThNode;
+            }
+            else{
+                prevNode->next = kThNode;
+            }
+
+            prevNode = temp;
+            temp = nextNode;
         }
-        int n = arr.size();
-
-        for(int i=0; i+k<=n; i+=k){
-            Reverse(arr, i, i+k-1);
-        }
-
-        ListNode* newhead = convertArr2LL(arr);
-
-        return newhead;
+        return head;
     }
 };
