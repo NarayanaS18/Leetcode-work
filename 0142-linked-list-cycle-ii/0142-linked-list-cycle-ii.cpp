@@ -11,7 +11,7 @@ public:
     ListNode *detectCycle(ListNode *head) {
         if(head == NULL) return head;
         ListNode* temp = head;
-        set<ListNode*> s;
+        unordered_set<ListNode*> s;
         while(temp != NULL){
             if(s.find(temp) != s.end()){
                 return temp;
