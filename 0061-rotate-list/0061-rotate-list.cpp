@@ -11,49 +11,37 @@
 class Solution {
 public:
 
-    void Reverse(vector<int>& arr, int st, int end){
-        while(st < end){
-            swap(arr[st], arr[end]);
-            st++;
-            end--;
+    ListNode* find(ListNode* temp, int k){
+        int cnt = 1;
+        while(temp){
+            if(cnt == k){
+                return temp;
+            }
+            cnt++;
+            temp = temp->next;
         }
-    }
-
-    void Rotate(vector<int>& arr, int k){
-        int n = arr.size();
-        if(n < k) k = k%n;
-        Reverse(arr, 0, n-1);
-        Reverse(arr, 0, k-1);
-        Reverse(arr, k, n-1);
-    }
-
-    ListNode* convertArr2LL(vector<int>& arr){
-        if(arr.empty()) return NULL;
-        ListNode* head = new ListNode(arr[0]);
-        ListNode* mover = head;
-
-        for(int i=1; i<arr.size(); i++){
-            ListNode* temp = new ListNode(arr[i]);
-            mover->next = temp;
-            mover = mover->next;
-        }
-        return head;
+        return temp;
     }
 
     ListNode* rotateRight(ListNode* head, int k) {
-        if(head == NULL) return NULL;
-        ListNode* temp = head;
-        vector<int> arr;
+        if(head == NULL || k == 0) return head;
 
-        while(temp){
-            arr.push_back(temp->val);
-            temp = temp->next;
+        int len = 1;
+        ListNode* tail = head;
+        while(tail->next != NULL){
+            tail = tail->next;
+            len++;
         }
 
-        Rotate(arr, k);
+        if(k % len == 0) return head;
+        k = k % len;
 
-        ListNode* newhead = convertArr2LL(arr);
+        tail->next = head;
 
-        return newhead;
+        ListNode* newLastNode = find(head, len-k);
+        head = newLastNode->next;
+        newLastNode->next = NULL;
+
+        return head;
     }
 };
