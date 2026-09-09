@@ -10,28 +10,21 @@
  */
 class Solution {
 public:
-    void rotate(vector<int>& nums, int k) {
-        int n = nums.size();
-        if(n == 0) return;
-        if(k > n) k = k%n;
-        // reverse(nums.begin(), nums.end());
-        // reverse(nums.begin(), nums.begin()+k);
-        // reverse(nums.begin()+k, nums.end());
 
-        Reverse(0, n-1, nums);
-        Reverse(0, k-1, nums);
-        Reverse(k, n-1, nums);
-    }
-
-    void Reverse(int st, int end, vector<int>& nums){
-        if(nums.empty()) return;
+    void Reverse(vector<int>& arr, int st, int end){
         while(st < end){
-            int temp = nums[st];
-            nums[st] = nums[end];
-            nums[end] = temp;
+            swap(arr[st], arr[end]);
             st++;
             end--;
         }
+    }
+
+    void Rotate(vector<int>& arr, int k){
+        int n = arr.size();
+        if(n < k) k = k%n;
+        Reverse(arr, 0, n-1);
+        Reverse(arr, 0, k-1);
+        Reverse(arr, k, n-1);
     }
 
     ListNode* convertArr2LL(vector<int>& arr){
@@ -44,7 +37,6 @@ public:
             mover->next = temp;
             mover = mover->next;
         }
-
         return head;
     }
 
@@ -52,12 +44,14 @@ public:
         if(head == NULL) return NULL;
         ListNode* temp = head;
         vector<int> arr;
+
         while(temp){
             arr.push_back(temp->val);
             temp = temp->next;
         }
-        
-        rotate(arr, k);
+
+        Rotate(arr, k);
+
         ListNode* newhead = convertArr2LL(arr);
 
         return newhead;
