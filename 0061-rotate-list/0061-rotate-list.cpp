@@ -10,7 +10,6 @@
  */
 class Solution {
 public:
-
     ListNode* find(ListNode* temp, int k){
         int cnt = 1;
         while(temp){
@@ -25,9 +24,9 @@ public:
 
     ListNode* rotateRight(ListNode* head, int k) {
         if(head == NULL || k == 0) return head;
-
-        int len = 1;
         ListNode* tail = head;
+        int len = 1;
+
         while(tail->next != NULL){
             tail = tail->next;
             len++;
@@ -38,9 +37,9 @@ public:
 
         tail->next = head;
 
-        ListNode* newLastNode = find(head, len-k);
-        head = newLastNode->next;
-        newLastNode->next = NULL;
+        ListNode* newLast = find(head, len-k);
+        head = newLast->next;
+        newLast->next = NULL;
 
         return head;
     }
