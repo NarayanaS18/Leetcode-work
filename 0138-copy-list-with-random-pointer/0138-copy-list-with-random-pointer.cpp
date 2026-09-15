@@ -16,37 +16,36 @@ public:
 
 class Solution {
 public:
-
-    void insertInBetween(Node* head){
+    Node* copyRandomList(Node* head) {
         Node* temp = head;
+
+        //insert copy in between
         while(temp){
             Node* newNode = new Node(temp->val);
             newNode->next = temp->next;
             temp->next = newNode;
+
             temp = temp->next->next;
         }
-    }
 
-    void connectNode(Node* head){
-        Node* temp = head;
-
+        //connect Random pointers of copy node
+        temp = head;
         while(temp){
-            Node* copy = temp->next;
+            Node* copyNode = temp->next;
             if(temp->random != NULL){
-                copy->random = temp->random->next;
+                copyNode->random = temp->random->next;
             }
             else{
-                copy->random = NULL;
+                copyNode->random = NULL;
             }
             temp = temp->next->next;
         }
-    }
 
-    Node* getCopyList(Node* head){
+        //now we reconnect original next and connect copy next to copy nodes
         Node* dummy = new Node(-1);
         Node* res = dummy;
-        Node* temp = head;
-
+        temp = head;
+        
         while(temp){
             res->next = temp->next;
             temp->next = temp->next->next;
@@ -56,11 +55,5 @@ public:
         }
 
         return dummy->next;
-    }
-
-    Node* copyRandomList(Node* head) {
-        insertInBetween(head);
-        connectNode(head);
-        return getCopyList(head);
     }
 };
