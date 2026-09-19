@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/NarayanaS18/Leetcode-work/tree/master/0733-flood-fill) |
 | [0740-delete-and-earn](https://github.com/NarayanaS18/Leetcode-work/tree/master/0740-delete-and-earn) |
 | [0746-min-cost-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0746-min-cost-climbing-stairs) |
+| [0860-lemonade-change](https://github.com/NarayanaS18/Leetcode-work/tree/master/0860-lemonade-change) |
 | [0994-rotting-oranges](https://github.com/NarayanaS18/Leetcode-work/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/NarayanaS18/Leetcode-work/tree/master/1020-number-of-enclaves) |
 | [1480-running-sum-of-1d-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/1480-running-sum-of-1d-array) |
@@ -408,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/NarayanaS18/Leetcode-work/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/NarayanaS18/Leetcode-work/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0860-lemonade-change](https://github.com/NarayanaS18/Leetcode-work/tree/master/0860-lemonade-change) |
 ## Monotonic Stack
 |  |
 | ------- |
