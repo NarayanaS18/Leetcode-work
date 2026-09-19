@@ -3,25 +3,26 @@ public:
     int trap(vector<int>& height) {
         int n = height.size();
         int total = 0, lmax = 0, rmax = 0;
-        int i = 0, j = n-1;
-        while(i < j){
-            if(height[i] <= height[j]){
-                if(lmax > height[i]){
-                    total += lmax - height[i];
+        int l = 0, r = n-1;
+        
+        while(l < r){
+            if(height[l] <= height[r]){
+                if(height[l] < lmax){
+                    total += lmax - height[l];
                 }
                 else{
-                    lmax = height[i];
+                    lmax = height[l];
                 }
-                i++;
+                l++;
             }
             else{
-                if(rmax > height[j]){
-                    total += rmax - height[j];
+                if(height[r] < rmax){
+                    total += rmax - height[r];
                 }
                 else{
-                    rmax = height[j];
+                    rmax = height[r];
                 }
-                j--;
+                r--;
             }
         }
         return total;
