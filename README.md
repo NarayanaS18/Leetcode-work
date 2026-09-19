@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0416-partition-equal-subset-sum) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0455-assign-cookies](https://github.com/NarayanaS18/Leetcode-work/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/NarayanaS18/Leetcode-work/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0494-target-sum) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0392-is-subsequence) |
+| [0455-assign-cookies](https://github.com/NarayanaS18/Leetcode-work/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0567-permutation-in-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0876-middle-of-the-linked-list](https://github.com/NarayanaS18/Leetcode-work/tree/master/0876-middle-of-the-linked-list) |
@@ -205,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0268-missing-number) |
 | [0414-third-maximum-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0414-third-maximum-number) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0455-assign-cookies](https://github.com/NarayanaS18/Leetcode-work/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
 ## Math
 |  |
@@ -403,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/NarayanaS18/Leetcode-work/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0455-assign-cookies](https://github.com/NarayanaS18/Leetcode-work/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
 ## Monotonic Stack
 |  |
@@ -414,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0056-merge-intervals](https://github.com/NarayanaS18/Leetcode-work/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/NarayanaS18/Leetcode-work/tree/master/0075-sort-colors) |
+| [0455-assign-cookies](https://github.com/NarayanaS18/Leetcode-work/tree/master/0455-assign-cookies) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
 | ------- |
