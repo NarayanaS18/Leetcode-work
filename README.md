@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/NarayanaS18/Leetcode-work/tree/master/0031-next-permutation) |
 | [0035-search-insert-position](https://github.com/NarayanaS18/Leetcode-work/tree/master/0035-search-insert-position) |
 | [0041-first-missing-positive](https://github.com/NarayanaS18/Leetcode-work/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/NarayanaS18/Leetcode-work/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/NarayanaS18/Leetcode-work/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/NarayanaS18/Leetcode-work/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0053-maximum-subarray) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/NarayanaS18/Leetcode-work/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/NarayanaS18/Leetcode-work/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/NarayanaS18/Leetcode-work/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0070-climbing-stairs) |
@@ -168,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/NarayanaS18/Leetcode-work/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/NarayanaS18/Leetcode-work/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/NarayanaS18/Leetcode-work/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/NarayanaS18/Leetcode-work/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/NarayanaS18/Leetcode-work/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0088-merge-sorted-array) |
@@ -332,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/NarayanaS18/Leetcode-work/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/NarayanaS18/Leetcode-work/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/NarayanaS18/Leetcode-work/tree/master/0071-simplify-path) |
 | [0234-palindrome-linked-list](https://github.com/NarayanaS18/Leetcode-work/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0394-decode-string) |
@@ -403,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/NarayanaS18/Leetcode-work/tree/master/0042-trapping-rain-water) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
 ## Quicksort
 |  |
