@@ -6,6 +6,10 @@ public:
         for(int i=0; i<n; i++){
             if(maxIdx < i) return false;
             maxIdx = max(maxIdx, (i + nums[i]));
+
+            if(maxIdx >= n-1){
+                return true;
+            }
         }
         return true;
     }
