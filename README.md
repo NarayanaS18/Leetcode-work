@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0516-longest-palindromic-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0516-longest-palindromic-subsequence) |
 | [0567-permutation-in-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0567-permutation-in-string) |
+| [0678-valid-parenthesis-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0678-valid-parenthesis-string) |
 | [0686-repeated-string-match](https://github.com/NarayanaS18/Leetcode-work/tree/master/0686-repeated-string-match) |
 | [1143-longest-common-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/1143-longest-common-subsequence) |
 ## Trie
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0516-longest-palindromic-subsequence) |
+| [0678-valid-parenthesis-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0678-valid-parenthesis-string) |
 | [0740-delete-and-earn](https://github.com/NarayanaS18/Leetcode-work/tree/master/0740-delete-and-earn) |
 | [0746-min-cost-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0746-min-cost-climbing-stairs) |
 | [1137-n-th-tribonacci-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/1137-n-th-tribonacci-number) |
@@ -348,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/NarayanaS18/Leetcode-work/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0394-decode-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0678-valid-parenthesis-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0678-valid-parenthesis-string) |
 ## Sliding Window
 |  |
 | ------- |
@@ -415,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/NarayanaS18/Leetcode-work/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/NarayanaS18/Leetcode-work/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0678-valid-parenthesis-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0678-valid-parenthesis-string) |
 | [0860-lemonade-change](https://github.com/NarayanaS18/Leetcode-work/tree/master/0860-lemonade-change) |
 ## Monotonic Stack
 |  |
@@ -466,4 +470,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/NarayanaS18/Leetcode-work/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/NarayanaS18/Leetcode-work/tree/master/0142-linked-list-cycle-ii) |
 | [0287-find-the-duplicate-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0287-find-the-duplicate-number) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0678-valid-parenthesis-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0678-valid-parenthesis-string) |
 <!---LeetCode Topics End-->
