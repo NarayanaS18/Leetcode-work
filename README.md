@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-running-sum-of-1d-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/1480-running-sum-of-1d-array) |
 | [1920-build-array-from-permutation](https://github.com/NarayanaS18/Leetcode-work/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/1929-concatenation-of-array) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/NarayanaS18/Leetcode-work/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 ## String
 |  |
 | ------- |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0567-permutation-in-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0876-middle-of-the-linked-list](https://github.com/NarayanaS18/Leetcode-work/tree/master/0876-middle-of-the-linked-list) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/NarayanaS18/Leetcode-work/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 ## Sorting
 |  |
 | ------- |
@@ -220,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0455-assign-cookies](https://github.com/NarayanaS18/Leetcode-work/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/NarayanaS18/Leetcode-work/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 ## Math
 |  |
 | ------- |
@@ -320,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/NarayanaS18/Leetcode-work/tree/master/0560-subarray-sum-equals-k) |
 | [1480-running-sum-of-1d-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/1480-running-sum-of-1d-array) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/NarayanaS18/Leetcode-work/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 ## Counting
 |  |
 | ------- |
@@ -425,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0678-valid-parenthesis-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0678-valid-parenthesis-string) |
 | [0860-lemonade-change](https://github.com/NarayanaS18/Leetcode-work/tree/master/0860-lemonade-change) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/NarayanaS18/Leetcode-work/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -479,4 +484,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0678-valid-parenthesis-string) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/NarayanaS18/Leetcode-work/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 <!---LeetCode Topics End-->
