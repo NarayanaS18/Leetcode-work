@@ -1,31 +1,26 @@
 class Solution {
 public:
-
-    // bool linearSearch(vector<int>& nums, int tar){
-    //     int n = nums.size();
-    //     for(int i=0; i<n; i++){
-    //         if(nums[i] == tar) return true;
-    //     }
-    //     return false;
-    // }
-
-    int longestConsecutive(vector<int>& nums){
+    int longestConsecutive(vector<int>& nums) {
         int n = nums.size();
-        if(n == 0) return 0;
-        sort(nums.begin(), nums.end());
-        int longest = 1, cnt = 0, lastSmaller = INT_MIN;
+        unordered_set<int> s;
+
         for(int i=0; i<n; i++){
-            if(nums[i]-1 == lastSmaller){
-                cnt++;
-                lastSmaller = nums[i];
-            }
-            
-            else if(nums[i] != lastSmaller){
-                cnt = 1;
-                lastSmaller = nums[i];
-            }
-            longest = max(cnt, longest);
+            s.insert(nums[i]);
         }
-        return longest;
+
+        int cnt = 1, maxlen = 0;
+        for(int num : s){
+            if(s.find(num-1) == s.end()){
+                int cur = num;
+                cnt = 1;
+
+                while(s.find(cur+1) != s.end()){
+                    cnt++;
+                    cur = cur+1;
+                }
+                maxlen = max(maxlen, cnt);
+            }
+        }
+        return maxlen;
     }
 };
