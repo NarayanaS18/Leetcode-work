@@ -1,22 +1,18 @@
 class Solution {
 public:
 
-    void f(int n, int open, int close, string &temp, vector<string>& ans){
+    void f(int n, int open, int close, string temp, vector<string>& ans){
         if(open == n && close == n){
             ans.push_back(temp);
             return;
         }
 
         if(open < n){
-            temp.push_back('(');
-            f(n, open+1, close, temp, ans);
-            temp.pop_back();
+            f(n, open+1, close, temp + '(', ans);
         }
         
         if(close < open){
-            temp.push_back(')');
-            f(n, open, close+1, temp, ans);
-            temp.pop_back();
+            f(n, open, close+1, temp + ')', ans);
         }
     }
 
