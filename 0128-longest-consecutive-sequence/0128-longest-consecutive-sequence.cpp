@@ -4,17 +4,17 @@ public:
         int n = nums.size();
         if(n == 0) return 0;
         int maxlen = 1, cnt = 1;
-        int lastsmall = INT_MIN;
+        int lastSmall = INT_MIN;
         sort(nums.begin(), nums.end());
 
         for(int i=0; i<n; i++){
-            if(nums[i]-1 == lastsmall){
+            if(nums[i]-1 == lastSmall){
                 cnt++;
-                lastsmall = nums[i];
+                lastSmall = nums[i];
             }
-            else if(nums[i] != lastsmall){
+            else if(nums[i] != lastSmall){
                 cnt = 1;
-                lastsmall = nums[i];
+                lastSmall = nums[i];
             }
             maxlen = max(maxlen, cnt);
         }
