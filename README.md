@@ -243,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0509-fibonacci-number) |
 | [1137-n-th-tribonacci-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/1137-n-th-tribonacci-number) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/NarayanaS18/Leetcode-work/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
+| [4000-largest-integer-with-given-digit-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/4000-largest-integer-with-given-digit-sum) |
 ## Memoization
 |  |
 | ------- |
@@ -441,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0678-valid-parenthesis-string) |
 | [0860-lemonade-change](https://github.com/NarayanaS18/Leetcode-work/tree/master/0860-lemonade-change) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/NarayanaS18/Leetcode-work/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
+| [4000-largest-integer-with-given-digit-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/4000-largest-integer-with-given-digit-sum) |
 ## Monotonic Stack
 |  |
 | ------- |
