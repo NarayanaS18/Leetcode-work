@@ -11,7 +11,6 @@ public:
                 temp.insert(nums[i]);
             }
         }
-
         vector<int> ans(temp.begin(), temp.end());
         return ans;
     }
