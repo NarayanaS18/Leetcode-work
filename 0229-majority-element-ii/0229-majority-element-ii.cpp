@@ -3,21 +3,18 @@ public:
     vector<int> majorityElement(vector<int>& nums) {
         int n = nums.size();
         set<int> temp;
-        sort(nums.begin(), nums.end());
-        int cnt = 0, ans = nums[0];
+        unordered_map<int, int> mp;
+        
+        for(int i=0; i<n; i++){
+            mp[nums[i]]++;
+        }
 
         for(int i=0; i<n; i++){
-            if(ans != nums[i]){
-                cnt = 0;
-                ans = nums[i];
+            if(mp[nums[i]] > n/3){ 
+                temp.insert(nums[i]);
             }
-            if(ans == nums[i]){
-                cnt++;
-            }
-
-            if(cnt > (n/3)) temp.insert(ans);
         }
-        vector<int> arr(temp.begin(), temp.end());
-        return arr;
+        vector<int> ans(temp.begin(), temp.end());
+        return ans;
     }
 };
