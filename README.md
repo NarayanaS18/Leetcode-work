@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0494-target-sum) |
 | [0525-contiguous-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0525-contiguous-array) |
+| [0540-single-element-in-a-sorted-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/NarayanaS18/Leetcode-work/tree/master/0560-subarray-sum-equals-k) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0643-maximum-average-subarray-i](https://github.com/NarayanaS18/Leetcode-work/tree/master/0643-maximum-average-subarray-i) |
@@ -355,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0300-longest-increasing-subsequence) |
 | [0493-reverse-pairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0493-reverse-pairs) |
+| [0540-single-element-in-a-sorted-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/NarayanaS18/Leetcode-work/tree/master/0704-binary-search) |
 ## Bit Manipulation
 |  |
