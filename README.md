@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-running-sum-of-1d-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/1480-running-sum-of-1d-array) |
 | [1920-build-array-from-permutation](https://github.com/NarayanaS18/Leetcode-work/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/1929-concatenation-of-array) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/NarayanaS18/Leetcode-work/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 ## String
 |  |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0455-assign-cookies](https://github.com/NarayanaS18/Leetcode-work/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/NarayanaS18/Leetcode-work/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 ## Math
 |  |
@@ -358,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/NarayanaS18/Leetcode-work/tree/master/0704-binary-search) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Bit Manipulation
 |  |
 | ------- |
