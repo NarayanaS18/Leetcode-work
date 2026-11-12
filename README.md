@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/NarayanaS18/Leetcode-work/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/NarayanaS18/Leetcode-work/tree/master/1020-number-of-enclaves) |
 | [1480-running-sum-of-1d-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/1480-running-sum-of-1d-array) |
+| [1901-find-a-peak-element-ii](https://github.com/NarayanaS18/Leetcode-work/tree/master/1901-find-a-peak-element-ii) |
 | [1920-build-array-from-permutation](https://github.com/NarayanaS18/Leetcode-work/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/1929-concatenation-of-array) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/2089-find-target-indices-after-sorting-array) |
@@ -326,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/NarayanaS18/Leetcode-work/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/NarayanaS18/Leetcode-work/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/NarayanaS18/Leetcode-work/tree/master/1020-number-of-enclaves) |
+| [1901-find-a-peak-element-ii](https://github.com/NarayanaS18/Leetcode-work/tree/master/1901-find-a-peak-element-ii) |
 ## Simulation
 |  |
 | ------- |
@@ -365,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/NarayanaS18/Leetcode-work/tree/master/0704-binary-search) |
+| [1901-find-a-peak-element-ii](https://github.com/NarayanaS18/Leetcode-work/tree/master/1901-find-a-peak-element-ii) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Bit Manipulation
 |  |
