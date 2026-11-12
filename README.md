@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1929-concatenation-of-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/1929-concatenation-of-array) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/NarayanaS18/Leetcode-work/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
+| [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 ## String
 |  |
 | ------- |
