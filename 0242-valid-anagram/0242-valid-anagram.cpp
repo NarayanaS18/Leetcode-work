@@ -8,11 +8,11 @@ public:
 
         for(int i=0; i<n; i++){
             hash[s[i]-'a']++;
+            hash[t[i]-'a']--;
         }
 
-        for(int i=0; i<m; i++){
-            hash[t[i]-'a']--;
-            if(hash[t[i]-'a'] < 0){
+        for(int val : hash){
+            if(val != 0){
                 return false;
             }
         }
