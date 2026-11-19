@@ -6,14 +6,14 @@ public:
 
         for(int i=0; i<n; i++){
             int val = target - nums[i];
+
             if(mp.find(val) != mp.end()){
-                return {i, mp[val]};
+                return {mp[val], i};
             }
-            else{
+            else if(mp.find(val) == mp.end()){
                 mp[nums[i]] = i;
             }
         }
-
         return {-1, -1};
     }
 };
