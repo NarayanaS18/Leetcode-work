@@ -3,14 +3,14 @@ class Solution:
         if len(s) != len(t):
             return False
 
-        count = [0] * 26
-
+        hash = [0]*26
         for i in range(len(s)):
-            count[ord(s[i]) - ord('a')] += 1
-            count[ord(t[i]) - ord('a')] -= 1
+            hash[ord(s[i]) - ord('a')] += 1
+            hash[ord(t[i]) - ord('a')] -= 1
         
-        for num in count:
-            if num != 0:
+        for val in hash:
+            if val != 0:
                 return False
-        
         return True
+
+        
