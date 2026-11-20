@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/NarayanaS18/Leetcode-work/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/NarayanaS18/Leetcode-work/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/NarayanaS18/Leetcode-work/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/NarayanaS18/Leetcode-work/tree/master/0347-top-k-frequent-elements) |
 | [0414-third-maximum-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0414-third-maximum-number) |
 | [0416-partition-equal-subset-sum](https://github.com/NarayanaS18/Leetcode-work/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/NarayanaS18/Leetcode-work/tree/master/0435-non-overlapping-intervals) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/NarayanaS18/Leetcode-work/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/NarayanaS18/Leetcode-work/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/NarayanaS18/Leetcode-work/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/NarayanaS18/Leetcode-work/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0387-first-unique-character-in-a-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/NarayanaS18/Leetcode-work/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/NarayanaS18/Leetcode-work/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/NarayanaS18/Leetcode-work/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/NarayanaS18/Leetcode-work/tree/master/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0493-reverse-pairs) |
 ## Two Pointers
 |  |
@@ -232,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/NarayanaS18/Leetcode-work/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/NarayanaS18/Leetcode-work/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/NarayanaS18/Leetcode-work/tree/master/0347-top-k-frequent-elements) |
 | [0414-third-maximum-number](https://github.com/NarayanaS18/Leetcode-work/tree/master/0414-third-maximum-number) |
 | [0435-non-overlapping-intervals](https://github.com/NarayanaS18/Leetcode-work/tree/master/0435-non-overlapping-intervals) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -348,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/NarayanaS18/Leetcode-work/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/NarayanaS18/Leetcode-work/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/NarayanaS18/Leetcode-work/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/NarayanaS18/Leetcode-work/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0387-first-unique-character-in-a-string) |
 ## Binary Search
@@ -521,6 +526,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/NarayanaS18/Leetcode-work/tree/master/0347-top-k-frequent-elements) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/NarayanaS18/Leetcode-work/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 ## Database
 |  |
@@ -545,4 +551,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1683-invalid-tweets](https://github.com/NarayanaS18/Leetcode-work/tree/master/1683-invalid-tweets) |
 | [1757-recyclable-and-low-fat-products](https://github.com/NarayanaS18/Leetcode-work/tree/master/1757-recyclable-and-low-fat-products) |
 | [1934-confirmation-rate](https://github.com/NarayanaS18/Leetcode-work/tree/master/1934-confirmation-rate) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/NarayanaS18/Leetcode-work/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/NarayanaS18/Leetcode-work/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
