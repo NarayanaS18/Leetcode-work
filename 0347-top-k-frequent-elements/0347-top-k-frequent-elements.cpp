@@ -1,7 +1,6 @@
 class Solution {
 public:
-
-    static bool CompSecond(const pair<int, int>& a, const pair<int, int>& b){
+    static bool compBySecond(const pair<int, int>& a, const pair<int, int>& b){
         return a.second > b.second;
     }
 
@@ -9,15 +8,15 @@ public:
         int n = nums.size();
         unordered_map<int, int> mp;
 
-        for(int i=0; i<n; i++){
-            mp[nums[i]]++;
+        for(int x : nums){
+            mp[x]++;
         }
 
         vector<pair<int, int>> temp;
         for(const auto& [num, freq] : mp){
             temp.push_back({num, freq});
         }
-        sort(temp.begin(), temp.end(), CompSecond);
+        sort(temp.begin(), temp.end(), compBySecond);
 
         vector<int> ans;
         for(int i=0; i<k; i++){
