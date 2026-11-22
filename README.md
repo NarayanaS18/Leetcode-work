@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0746-min-cost-climbing-stairs](https://github.com/NarayanaS18/Leetcode-work/tree/master/0746-min-cost-climbing-stairs) |
 | [0860-lemonade-change](https://github.com/NarayanaS18/Leetcode-work/tree/master/0860-lemonade-change) |
 | [0994-rotting-oranges](https://github.com/NarayanaS18/Leetcode-work/tree/master/0994-rotting-oranges) |
+| [0997-find-the-town-judge](https://github.com/NarayanaS18/Leetcode-work/tree/master/0997-find-the-town-judge) |
 | [1020-number-of-enclaves](https://github.com/NarayanaS18/Leetcode-work/tree/master/1020-number-of-enclaves) |
 | [1480-running-sum-of-1d-array](https://github.com/NarayanaS18/Leetcode-work/tree/master/1480-running-sum-of-1d-array) |
 | [1901-find-a-peak-element-ii](https://github.com/NarayanaS18/Leetcode-work/tree/master/1901-find-a-peak-element-ii) |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/NarayanaS18/Leetcode-work/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/NarayanaS18/Leetcode-work/tree/master/0567-permutation-in-string) |
 | [0740-delete-and-earn](https://github.com/NarayanaS18/Leetcode-work/tree/master/0740-delete-and-earn) |
+| [0997-find-the-town-judge](https://github.com/NarayanaS18/Leetcode-work/tree/master/0997-find-the-town-judge) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -416,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0785-is-graph-bipartite](https://github.com/NarayanaS18/Leetcode-work/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/NarayanaS18/Leetcode-work/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/NarayanaS18/Leetcode-work/tree/master/0841-keys-and-rooms) |
+| [0997-find-the-town-judge](https://github.com/NarayanaS18/Leetcode-work/tree/master/0997-find-the-town-judge) |
 | [1791-find-center-of-star-graph](https://github.com/NarayanaS18/Leetcode-work/tree/master/1791-find-center-of-star-graph) |
 | [1971-find-if-path-exists-in-graph](https://github.com/NarayanaS18/Leetcode-work/tree/master/1971-find-if-path-exists-in-graph) |
 ## Queue
